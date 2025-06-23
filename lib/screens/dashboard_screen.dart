@@ -113,7 +113,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   Future<void> generateInsights(String csvRawData) async {
     setState(() => loading = true);
-    const apiKey = 'AIzaSyCh43xETbQvyge-acX_Ey0Vx2Rfx770tEY';
+    const apiKey = '';
     final url = Uri.parse(
         'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=$apiKey');
 
